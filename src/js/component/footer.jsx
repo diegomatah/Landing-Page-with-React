@@ -2,10 +2,9 @@ import React from "react"
 
 function Footer (){
     return (
-        <div class="card">
+        <div class="card d-flex align-items-center mt-4 bg-secondary">
         <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <p class="card-text text-white">Copyright@ Your Website 2019 </p>
         </div>
       </div>
   );
