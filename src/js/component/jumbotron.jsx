@@ -2,10 +2,12 @@ import React from "react"
 
 function Jumbotron (){
     return (
-<div className="jumbotron p-5 bg-light">
-  <h1 className="display-4">A Warm Welcome!</h1>
-  <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-  <a className="btn btn-primary btn-lg mb-4" href="#" role="button">Call to action!</a>
+<div className="jumbotron pt-2" style={{backgroundColor:'#ECEFF1'}}>
+  <div className="" style={{"margin-left": "80px"}}>
+  <h1 className="display-4">¡Bienvenido a tus vacaciones soñadas!</h1>
+  <p className="lead">Aquí encontrarás toda la información necesaria para planificar las vacaciones que te mereces.</p>
+  <a className="btn btn-primary btn-lg mb-4" href="#" role="button">Quiero ir enseguida</a>
+</div>
 </div>
   );
 }
